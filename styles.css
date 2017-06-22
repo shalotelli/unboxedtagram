@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(135deg, #43CBFF 0%, #9708CC 100%);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.hide {
+  display: none;
+}
+
+.dropzone {
+  padding: 20px 20px;
+}
+
+.dropzone > .drop-area {
+  border: 2px dashed #fff;
+  padding: 20px 20px;
+}
+
+.dropzone > .drop-area > .message {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 2em;
+}
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  border: 2px solid #fff;
+}
+
+.thumbnails {
+  width: 100%;
+  height: 75px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnails > .thumbnail {
+  height: 100px;
+  width: 150px;
+  border: 2px solid #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.thumbnails > .thumbnail.selected {
+  border-color: #f00fff;
+}

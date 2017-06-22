@@ -1,0 +1,20 @@
+{
+  "name": "unboxedtagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "caman-dist-only": "^4.1.3"
+  }
+}
